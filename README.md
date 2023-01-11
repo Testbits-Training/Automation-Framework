@@ -1,6 +1,8 @@
 # Katalon Studio Automation-Framework (Testbits)
 Collection of informations regarding Katalon Studio Automation Framework and Tools used. You can refer more about Katalon Studio in the official [documentation](https://docs.katalon.com/docs) 
 
+<img width="951" alt="Picture1" src="https://user-images.githubusercontent.com/120165538/211730216-4ac34e1a-b965-46c0-bc48-f89ff9cbd119.png">
+
 ## KS Beginner Project Framework
 ### Project Structure
 ```
