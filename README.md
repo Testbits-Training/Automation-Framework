@@ -1,7 +1,7 @@
 # Katalon Studio Automation-Framework (Testbits)
 Collection of informations regarding Katalon Studio Automation Framework and Tools used. You can refer more about Katalon Studio in the official [documentation](https://docs.katalon.com/docs) 
 
-# Hybrid Test Automation Framework (Katalon Studio)
+## Hybrid Test Automation Framework (Katalon Studio)
 <img width="951" alt="Picture1" src="https://user-images.githubusercontent.com/120165538/211730216-4ac34e1a-b965-46c0-bc48-f89ff9cbd119.png">
 
 Enterprises find it hard to boost their testing teams' speed without compromising product quality. Built on the hybrid test automation framework, the Katalon Testing Platform offers testing professionals the complete set of testing solutions to test software and applications. 
@@ -13,6 +13,8 @@ With the purpose of removing the need to build frameworks and reinvent the wheel
 | Record-and-Playback Testing         | Capture, view object properties and generate tests based on every action taken on the System Under Test    |
 | Keyword-Driven Testing              | Jam-packed library of built-in keywords to 2x the speed of designing test steps and actions |
 | Data Driven Testing                 | Test against a combination of CSV/Excel files, internal databases and external databases ( Oracle SQL, SQL Server or databases with JDBC drivers)      |
+
+You can read more in this [resource](https://katalon.com/resources-center/blog/test-automation-framework) by Katalon
 
 ## KS Beginner Project Framework
 ### Project Structure
