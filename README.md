@@ -72,6 +72,26 @@ This template assumes that you have already defined the following test objects i
 - btn_Login: a button for submitting the login form
 - welcome_message: an element that is present on the homepage and serves as a verification that the login was successful
 
+### Upload Template
+```groovy
+
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+WebUI.openBrowser('${url}')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('${url}')
+
+WebUI.uploadFile(findTestObject('Object Repository/Page_Register/input_file'), 'C:\\Folder\\file.txt')
+
+WebUI.closeBrowser()
+```
+- input_file: a text field for uploading the file
+- C:\\Folder\\file.txt: Name of file that want to uapload include its directory
+    
+     
 You can then use this template for multiple web applications by simply providing the values for url, username, and password as variables in your test case.
 
 ## Guidelines on how to use the Beginner Project Framework
