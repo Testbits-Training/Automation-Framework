@@ -91,6 +91,27 @@ WebUI.closeBrowser()
 - input_file: a text field for uploading the file
 - C:\\Folder\\file.txt: Name of file that want to uapload include its directory
     
+### Download Template
+```groovy
+
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+WebUI.openBrowser('${url}')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('${url}')
+
+WebUI.downloadFile(findTestObject('Object Repository/Page_Dwonload/download_file'), 'path/to/downloads')
+
+WebUI.verifyDownloadedFile('Object Repository/Page_Dwonload/download_file', 'path/to/downloads', 'file.txt', 'text/plain')
+
+WebUI.closeBrowser()
+```
+    
+- download_file: URL for uploading the file
+- path/to/downloads: Location of directory to store downloading file
      
 You can then use this template for multiple web applications by simply providing the values for url, username, and password as variables in your test case.
 
